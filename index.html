@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hàng Nội Địa Nhật Bản</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hàng Nội Địa Nhật Bản</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#products">Sản Phẩm</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Chào mừng đến với Hàng Nội Địa Nhật Bản</h2>
+            <p>Khám phá các sản phẩm chất lượng cao từ Nhật Bản.</p>
+            <a href="#products" class="btn">Xem Sản Phẩm</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Sản Phẩm Nổi Bật</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="product1.jpg" alt="Sản phẩm 1">
+                    <h3>Sản phẩm 1</h3>
+                    <p>Mô tả sản phẩm 1.</p>
+                    <p class="price">500,000 VND</p>
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="Sản phẩm 2">
+                    <h3>Sản phẩm 2</h3>
+                    <p>Mô tả sản phẩm 2.</p>
+                    <p class="price">700,000 VND</p>
+                </div>
+                <div class="product-item">
+                    <img src="product3.jpg" alt="Sản phẩm 3">
+                    <h3>Sản phẩm 3</h3>
+                    <p>Mô tả sản phẩm 3.</p>
+                    <p class="price">1,000,000 VND</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Liên Hệ</h2>
+            <form id="contact-form">
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Lời nhắn:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Gửi</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hàng Nội Địa Nhật Bản. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
